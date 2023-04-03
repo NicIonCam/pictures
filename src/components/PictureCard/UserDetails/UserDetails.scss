@@ -1,0 +1,13 @@
+.user-details {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+
+    &__last-name {
+        margin-right: 5px;
+    }
+
+    img {
+        border-radius: 50%;
+    }
+}

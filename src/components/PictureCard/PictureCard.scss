@@ -1,0 +1,19 @@
+.picture-card {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 100%;
+
+    &__image {
+        flex: 0.6;
+    }
+
+    &__details {
+        flex: 0.4;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        padding: 0 30px;
+        background: lightgrey;
+    }
+}
