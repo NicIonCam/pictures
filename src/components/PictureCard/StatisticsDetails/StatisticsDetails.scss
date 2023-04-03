@@ -1,0 +1,17 @@
+.statistics-details {
+    display: flex;
+    flex-direction: column;
+
+    &__likes {
+        display: flex;
+        
+        img {
+            width: 40px;
+            height: 40px;
+        }
+
+        p {
+            margin-left: 10px;
+        }
+    }
+}
