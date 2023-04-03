@@ -26,7 +26,6 @@ const initialState: PostsState = {
 }
 
 const PostReducer: Reducer <PostsState, PostsAction> = (state, action) => {
-    // console.log('action', action, state);
     switch(action.type) {
         case actionTypes.SET_LOADING_POSTS:
             return {
@@ -111,7 +110,6 @@ export const PostsContextProvider: React.FC<{children: ReactNode}> = ({ children
         loadPosts('', 0, 15);
     }, [])
 
-    console.log('state', state);
     return (
         <PostsContext.Provider value={{
             posts: state.posts,

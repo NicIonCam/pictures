@@ -52,7 +52,6 @@ export const MediaQueryContextProvider: React.FC<{children: ReactNode}> = ({ chi
         }
     }, [])
 
-    console.log('mediaQuery', mediaQuery);
     return (
         <MediaQueryContext.Provider value={{
             mediaQuery,
